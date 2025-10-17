@@ -1,5 +1,3 @@
-
-![[Pasted image 20251017020951.png]]
 # AI-Powered Data Analysis Project Report
 
 ## Executive Summary
@@ -168,8 +166,9 @@ Name: Sales, dtype: float64
    💡 Insight: Customer_Churn has the strongest correlation with Sales (0.053)
 ```
 
-![[IMAGE1.png]]
-![[IMAGE3.png]]
+![Sales Performance Analysis](IMAGE1.png)
+![Customer Segmentation](IMAGE3.png)
+
 ### Anomaly Detection
 
 ```
@@ -186,7 +185,8 @@ Name: Sales, dtype: float64
 139          140            12181                   1   9529
 177          178             1882                   7  96066
 ```
-![[IMAGE2.png]]
+
+![Anomaly Detection Visualization](IMAGE2.png)
 
 ---
 
@@ -223,7 +223,7 @@ Name: Sales, dtype: float64
    • R² Score: -0.2504 (-25.04% variance explained)
 ```
 
-![[IMAGE4.png]]
+![Sales Forecasting Models Comparison](IMAGE4.png)
 
 ### Customer Churn Prediction
 
@@ -261,7 +261,7 @@ weighted avg       0.70      0.75      0.67        81
    • True Positives: 1
 ```
 
-![[IMAGE5.png]]
+![Customer Churn Prediction Model](IMAGE5.png)
 
 • **Model Accuracy:** 75.31% 
 • **Precision (No Churn):** 76% 
@@ -286,7 +286,8 @@ weighted avg       0.70      0.75      0.67        81
    • Loan_Amount: Higher loan amounts pose greater risk
    • Income: Lower income increases default probability
 ```
-![[IMAGE6.png]]
+
+![Risk Assessment Analysis](IMAGE6.png)
 
 • **Default Rate:** 0% (post-cleaning) • **Key Risk Factors Identified:**
 
